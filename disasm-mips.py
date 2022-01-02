@@ -27,7 +27,7 @@ def disasm_coe(path):
         return ""
     txt = txt[pos+1:]
     pos = txt.find("=")
-    instr_list = txt[pos+1:].strip().split(",")
+    instr_list = txt[pos+1:].strip().replace("\n",",").split(",")
     buf = bytes()
     for instr in instr_list:
         cur = instr.strip()

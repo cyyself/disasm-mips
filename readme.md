@@ -36,7 +36,7 @@ python3 disasm-mips.py /home/cyy/step_into_mips/lab_4/coe/mipstest.coe
 ```
 
 ```bash
-python3 disasm-mips.py /home/cyy/step_into_mips/lab_4/coe/mipstest.coe
+$ python3 disasm-mips.py /home/cyy/step_into_mips/lab_4/coe/mipstest.coe
 
 disasm.bin:     file format binary
 
